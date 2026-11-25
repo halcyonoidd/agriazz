@@ -177,7 +177,23 @@ export const Home = () => {
       <section className="home-hero" id="top">
         <DisplacementSphere />
         <LogoLink />
-        <Content />
+        <div className="hero-primary">
+          {Resume.basics.picture && (
+            <a className="hero-portrait" href="#about" aria-label={`Learn more about ${Resume.basics.name}`}>
+              <span className="hero-portrait-inner">
+                <img
+                  src={`${process.env.PUBLIC_URL}/${Resume.basics.picture}`}
+                  alt={`${Resume.basics.name} in ${Resume.basics.location?.city || 'Beijing'}`}
+                />
+                <span className="hero-portrait-caption">
+                  <strong>{Resume.basics.name}</strong>
+                  <small>{Resume.basics.location?.city || 'Beijing'} / {Resume.basics.location?.country || 'China'}</small>
+                </span>
+              </span>
+            </a>
+          )}
+          <Content />
+        </div>
         <ThemeToggle />
         <Hidden smDown><SocialIcons /></Hidden>
         <Hidden mdUp><SpeedDials /></Hidden>

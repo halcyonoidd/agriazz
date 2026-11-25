@@ -27,8 +27,10 @@ const useStyles = makeStyles((theme) => ({
     WebkitBackdropFilter: 'blur(12px)',
     boxShadow: '0 8px 28px rgba(0, 0, 0, 0.2)',
     whiteSpace: 'nowrap',
+    [theme.breakpoints.down('lg')]: {
+      bottom: 'calc(env(safe-area-inset-bottom, 0px) + 64px)',
+    },
     [theme.breakpoints.down('xs')]: {
-      bottom: theme.spacing(2),
       gap: theme.spacing(0.5),
       padding: theme.spacing(0.75),
     },

@@ -9,8 +9,14 @@ const useStyles = makeStyles((theme) => ({
     main: {
         marginTop: "auto",
         marginBottom: "auto",
-        "@media (max-width: 768px)": {
-            marginLeft: theme.spacing(4),
+        "@media (max-width: 1150px)": {
+            marginLeft: "auto",
+            marginRight: "auto",
+            marginTop: 0,
+            marginBottom: 0,
+            width: "100%",
+            boxSizing: "border-box",
+            textAlign: "center",
         },
     },
 }));
@@ -25,7 +31,6 @@ export const Content = () => {
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={`a ${Resume.basics.job}`} />
-                <TextDecrypt text={`from ${Resume.basics.location.country}`} />
             </Typography>
         </Container>
     );
