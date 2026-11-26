@@ -8,6 +8,7 @@ import { logCredits } from "../utils/logCredits";
 
 import { Home } from "../pages/Home";
 import Projects from "../pages/Projects";
+import ProjectDetail from "../pages/ProjectDetail";
 import Education from "../pages/Education";
 import Experience from "../pages/Experience";
 import { Resume } from "../pages/Resume";
@@ -23,7 +24,8 @@ export const App = () => {
                 <HelmetMeta />
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/projects" component={Projects} />
+                    <Route path="/projects/:projectSlug" exact component={ProjectDetail} />
+                    <Route path="/projects" exact component={Projects} />
                     <Route path="/education" component={Education} />
                     <Route path="/experience" component={Experience} />
                     <Route path="/resume" component={Resume} />

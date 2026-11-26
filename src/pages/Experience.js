@@ -9,7 +9,7 @@ const Experience = () => {
   const volunteer = Resume.volunteer || [];
 
   return (
-    <ResumePageLayout eyebrow="Work & Organization" title="Experience">
+    <ResumePageLayout eyebrow="Work & Organization" title="Experience" showBackground>
       <section className="resume-page-section">
         <h2 className="resume-subheading">Work</h2>
         {work.length > 0 ? (

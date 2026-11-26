@@ -2,13 +2,15 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ThemeContext } from '../theme/ThemeProvider';
 import { BottomNavigation } from '../navigation/BottomNavigation';
+import DisplacementSphere from '../background/DisplacementSphere';
 import '../../Portfolio.css';
 
-export const ResumePageLayout = ({ eyebrow, title, children }) => {
+export const ResumePageLayout = ({ eyebrow, title, children, showBackground = false }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
     <div className={`home-sections home-sections-${theme} resume-page`}>
+      {showBackground && <DisplacementSphere />}
       <main className="resume-page-content">
         <Link className="resume-home-link" to="/">Back to home</Link>
         <header className="resume-page-header">

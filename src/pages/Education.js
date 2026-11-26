@@ -7,7 +7,7 @@ const Education = () => {
   const education = Resume.education || [];
 
   return (
-    <ResumePageLayout eyebrow="Learning journey" title="Education">
+    <ResumePageLayout eyebrow="Learning journey" title="Education" showBackground>
       {education.length > 0 ? (
         <div className="resume-entry-grid">
           {education.map((item, index) => (

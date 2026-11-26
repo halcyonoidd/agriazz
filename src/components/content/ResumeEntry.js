@@ -1,4 +1,5 @@
 import React from 'react';
+import { getMediaSrc } from '../../utils/projectMedia';
 
 export const ResumeEntry = ({
   eyebrow,
@@ -17,9 +18,7 @@ export const ResumeEntry = ({
     {image && (
       <img
         className="resume-entry-image"
-        src={image.startsWith('http://') || image.startsWith('https://')
-          ? image
-          : `${process.env.PUBLIC_URL}/${image.replace(/^\/+/, '')}`}
+        src={getMediaSrc(image)}
         alt={imageAlt || title || subtitle || ''}
         loading="lazy"
       />

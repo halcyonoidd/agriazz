@@ -199,4 +199,27 @@
             "keywords": ["HTML", "CSS", "Javascript", "TypeScript", "C++", "Python", "PHP", "Svelte", "React.js", "Laravel", "PostgreSQL", "TailwindCSS", "Bootstrap"]
         }
     ]
+    ,"projects": [
+        {
+            "name": "ifLearning",
+            "description": "ifLearning is an application designed as a learning tool for students to develop their skills in technology and programming. The application features an interactive user interface that makes the learning process comfortable and effective.",
+            "highlights": ["Developed an interactive user interface for the application.", "Implemented features that facilitate effective learning for students."],
+            "keywords": ["UI/UX Design", "Team Project", "Figma"],
+            "startDate": "September",
+            "endDate": "November 2025",
+            "url": "https://www.figma.com/proto/5Qrq6YNADPqF6S5C5Wf4fZ/iFLearning?node-id=294-1526&p=f&t=ATo1oNBzxZUi3xvM-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A1262",
+            "star": {
+                "situation": "The situation was that students often struggle to find effective learning tools that cater to their individual needs and learning styles. I identified this gap and decided to create an application that would provide a personalized and engaging learning experience for students.",
+                "task": "My task was to design and develop an application that would serve as a comprehensive learning tool for students. I aimed to create an intuitive user interface that would facilitate easy navigation and access to learning materials, while also incorporating features that would allow students to track their progress and interact with the application in a meaningful way.",
+                "action": "To achieve this, I conducted user research to understand the needs and preferences of students. I then created wireframes and prototypes using Figma, iterating on the design based on feedback from potential users. I implemented features such as interactive quizzes, progress tracking, and personalized learning paths to enhance the learning experience.",
+                "result": "As a result, the ifLearning application received positive feedback from students and educators alike. It was recognized for its innovative approach to learning and its user-friendly design. The application has been successfully used by students to improve their skills in technology and programming, demonstrating its effectiveness as a learning tool."
+            },
+            "images": [
+                "images/ifLearningVideo.mp4",
+                "images/ifLearningPhoto.webp",
+                "images/ifLearningPhoto2.webp",
+                "images/ifLearningPhoto3.webp"
+            ]
+        }
+    ]
 }
