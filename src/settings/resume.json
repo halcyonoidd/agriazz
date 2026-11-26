@@ -142,6 +142,11 @@
             "name": "Full Stack Developer",
             "level": "Intermediate",
             "keywords": ["Svelte", "React.js", "Laravel"]
+        },
+        {
+            "name": "Tools",
+            "level": "Intermediate",
+            "keywords": ["Microsoft Office", "GitHub", "VS Code", "Postman", "Figma", "Laragon", "OBS Studio", "Cisco Packet Tracer", "XAMPP"]
         }
     ],
     "languages": [
