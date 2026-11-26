@@ -8,10 +8,22 @@ export const ResumeEntry = ({
   details,
   highlights = [],
   tags = [],
+  image,
+  imageAlt,
   url,
   urlLabel = 'Visit website',
 }) => (
   <article className="resume-entry">
+    {image && (
+      <img
+        className="resume-entry-image"
+        src={image.startsWith('http://') || image.startsWith('https://')
+          ? image
+          : `${process.env.PUBLIC_URL}/${image.replace(/^\/+/, '')}`}
+        alt={imageAlt || title || subtitle || ''}
+        loading="lazy"
+      />
+    )}
     {eyebrow && <span className="scroll-card-number">{eyebrow}</span>}
     {title && <h2>{title}</h2>}
     {subtitle && <strong>{subtitle}</strong>}

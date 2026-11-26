@@ -3,13 +3,12 @@
         "name": "Agri Azzukhruf (艾睿)",
         "label": "Computer Science student",
         "email": "agriazzukhruf1@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
-        "picture": "agri.jpeg",
+        "picture": "images/agri.jpeg",
         "x_title": "Hey, I'm",
         "job": "Computer Science Student at UNESA & BUCT",
         "description": "Hey, I'm Agri Azzukhruf (艾睿), a Computer Science student based in Beijing, China. I love all things technical. Talk soon!",
         "summary": "based in Beijing, China.",
-        "keywords": "Computer Science, Software Development, Web Development, Programming, Technology",
+        "keywords": "Web Development, Full Stack Developer, UI/UX Designer, ", 
         "url": "https://agriazzukhruf.com",
         "location": {
             "address": "XX XXXXXstreet",
@@ -43,69 +42,111 @@
                 "username": "agriazz",
                 "url": "https://www.instagram.com/agriazz/",
                 "x_icon": "fab fa-instagram"
+            },
+            {
+                "network": "File",
+                "username": "CV Agri",
+                "url": "https://drive.google.com/file/d/1WyCrZg2fMXrwxlWA91MMCFCkmVEy3MKQ/view?usp=drive_link",
+                "x_icon": "fas fa-file-pdf"
             }
         ]
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "company": "GAO Tek Inc",
+            "position": "Data Mining Intern",
+            "website": "https://gaotek.com/",
+            "startDate": "November 2026",
+            "endDate": "Present",
+            "summary": "I am currently working as a Data Mining Intern at GAO Tek Inc, where I am responsible for collecting and analyzing data to extract valuable insights. My role involves utilizing various data mining techniques and tools to identify patterns and trends that can inform business decisions.",
+            "highlights": ["Collected and analyzed large datasets to identify trends and patterns.", "Developed data visualization dashboards to present findings to stakeholders.", "Collaborated with cross-functional teams to implement data-driven solutions."]
+        },
+        {
+            "company": "Universitas Negeri Surabaya (UNESA)",
+            "position": "Data Structure Practicum Co-Assistant",
+            "website": "https://www.instagram.com/ai.unesa_official?utm_source=ig_web_button_share_sheet&evlk=ZDNlZDc0MzIxNw==",
+            "startDate": "February 2026",
+            "endDate": "May 2026",
+            "summary": "I worked as a Data Structure Practicum Co-Assistant at Artificial Intelligence Study Program, Universitas Negeri Surabaya (UNESA), where I assisted students in understanding and implementing data structures. My responsibilities included providing guidance and support during practical sessions, as well as helping students with their assignments and projects.",
+            "highlights": ["Assisted students in understanding and implementing data structures.", "Provided guidance and support during practical sessions.", "Helped students with their assignments and projects."]
+        }
+    ],
+    "organizations": [
+        {
+            "name": "Badan Eksekutif Mahasiswa Fakultas Teknik (BEM FT) Universitas Negeri Surabaya",
+            "position": "Staff of Luar Negeri Department",
+            "website": "https://www.instagram.com/bemftunesa?utm_source=ig_web_button_share_sheet&cnvx=ZDNlZDc0MzIxNw==",
+            "startDate": "February 2026",
+            "endDate": "Present",
+            "summary": "I am currently serving as a Staff of Luar Negeri Department at Badan Eksekutif Mahasiswa Fakultas Teknik (BEM FT) Universitas Negeri Surabaya. In this role, I am responsible for managed strategic relationships and cooperation with external organizations, universities, and corporate partners to expand the faculty's network.",
+            "highlights": ["Managed strategic relationships and cooperation with external organizations, universities, and corporate partners.", "Represented the faculty in various meetings and conferences."]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "organization": "Mbak Mas Fakultas Teknik (MMFT) Universitas Negeri Surabaya",
+            "position": "Head of Public Relations",
+            "website": "https://www.instagram.com/mbakmasftunesa?utm_source=ig_web_button_share_sheet&bqrl=ZDNlZDc0MzIxNw==",
+            "startDate": "November 2025",
+            "endDate": "November 2025",
+            "summary": "I served as the Head of Public Relations at Pemilihan Mbak Mas Fakultas Teknik (MMFT) Universitas Negeri Surabaya, where I was responsible for Liaised with invited guests and sponsors, ensuring seamless coordination and hospitality.",
+            "highlights": ["Liaised with invited guests and sponsors, ensuring seamless coordination and hospitality."]
         }
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
+            "institution": "Beijing University of Chemical Technology (BUCT)",
+            "area": "Computer Science",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "startDate": "September 2026",
+            "endDate": "Present",
+            "gpa": "-",
+            "courses": ["Machine Learning", "Embedded Systems", "Operating Systems", "General Chinese (Language)", "Chinese Culture and History"]
+        },
+        {
+            "institution": "Universitas Negeri Surabaya (UNESA)",
+            "area": "Informatics Engineering",
+            "studyType": "Bachelor",
+            "startDate": "September 2024",
+            "endDate": "Present",
+            "gpa": "3.88/4.00",
+            "courses": ["Data Structure", "Computer Architecture", "Database Systems", "Mathematics", "Basic Programming", "Object Oriented Programming", "AI", "Platform Oriented Programming", "Software Engineering", "Computer Networks", "Operating Systems", "Computation Science", "Digital Image Processing", "Data Security"]
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "title": "3rd Place Winner INSYFEST UI/UX Competition",
+            "date": "November 2025",
+            "awarder": "Himpunan Mahasiswa Sistem Infomasi Universitas Buana Perjuangan Karawang",
+            "summary": "I was awarded 3rd Place in the INSYFEST UI/UX Competition, organized by Himpunan Mahasiswa Sistem Infomasi Universitas Buana Perjuangan Karawang. This recognition was given for my innovative and user-friendly design solutions in the competition.",
+            "image": "images/award.png"
         }
     ],
     "skills": [
         {
+            "name": "Programming",
+            "level": "Intermediate",
+            "keywords": ["C++", "Python"]
+        },
+        {
             "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "level": "Intermediate",
+            "keywords": ["HTML", "CSS", "Javascript", "TypeScript", "PostgreSQL", "TailwindCSS", "Bootstrap", "PHP"]
+        },
+        {
+            "name": "UI/UX Design",
+            "level": "Intermediate",
+            "keywords": ["Figma"]
+        },
+        {
+            "name": "Full Stack Developer",
+            "level": "Intermediate",
+            "keywords": ["Svelte", "React.js", "Laravel"]
         }
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "Indonesian",
             "fluency": "Native speaker"
         },
         {
@@ -113,20 +154,14 @@
             "fluency": "Fluent speaker"
         },
         {
-            "language": "French",
-            "fluency": "Good knowledge"
+            "language": "Chinese",
+            "fluency": "Basic knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
+            "name": "Programming",
+            "keywords": ["HTML", "CSS", "Javascript", "TypeScript", "C++", "Python", "PHP", "Svelte", "React.js", "Laravel", "PostgreSQL", "TailwindCSS", "Bootstrap"]
         }
     ]
 }

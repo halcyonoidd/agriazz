@@ -18,6 +18,8 @@ const Education = () => {
               subtitle={item.institution}
               details={item.gpa ? [`GPA: ${item.gpa}`] : []}
               tags={item.courses || []}
+              image={item.image}
+              imageAlt={item.imageAlt}
             />
           ))}
         </div>

@@ -78,6 +78,8 @@ const HomeSections = () => {
                 title={skill.name}
                 subtitle={skill.level}
                 tags={skill.keywords || []}
+                image={skill.image}
+                imageAlt={skill.imageAlt}
               />
             ))}
           </div>
@@ -88,7 +90,7 @@ const HomeSections = () => {
 
       {hasRecognition && (
         <Section id="recognition" number="03" title="AWARDS & PUBLICATIONS">
-          <h2>Recognition &<br /><span>publications.</span></h2>
+          <h2>Recognition &<br /><span>Awards.</span></h2>
           <div className="resume-entry-grid">
             {awards.map((award, index) => (
               <ResumeEntry
@@ -97,6 +99,8 @@ const HomeSections = () => {
                 title={award.title}
                 subtitle={award.awarder}
                 description={award.summary}
+                image={award.image}
+                imageAlt={award.imageAlt}
               />
             ))}
             {publications.map((publication, index) => (
@@ -108,6 +112,8 @@ const HomeSections = () => {
                 description={publication.summary}
                 url={publication.website}
                 urlLabel="Read publication"
+                image={publication.image}
+                imageAlt={publication.imageAlt}
               />
             ))}
           </div>
@@ -119,16 +125,23 @@ const HomeSections = () => {
           <h2>A few more<br /><span>things to know.</span></h2>
           <div className="resume-entry-grid">
             {languages.length > 0 && (
-              <ResumeEntry
-                title="Languages"
-                tags={languages.map((item) => `${item.language}${item.fluency ? ` — ${item.fluency}` : ''}`)}
-              />
+              languages.map((item, index) => (
+                <ResumeEntry
+                  key={`${item.language}-${index}`}
+                  title={item.language}
+                  subtitle={item.fluency}
+                  image={item.image}
+                  imageAlt={item.imageAlt}
+                />
+              ))
             )}
             {interests.map((interest, index) => (
               <ResumeEntry
                 key={`${interest.name}-${index}`}
                 title={interest.name}
                 tags={interest.keywords || []}
+                image={interest.image}
+                imageAlt={interest.imageAlt}
               />
             ))}
             {references.map((reference, index) => (
@@ -136,6 +149,8 @@ const HomeSections = () => {
                 key={`${reference.name}-${index}`}
                 title={reference.name}
                 description={reference.reference}
+                image={reference.image}
+                imageAlt={reference.imageAlt}
               />
             ))}
           </div>

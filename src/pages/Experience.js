@@ -5,10 +5,11 @@ import { ResumePageLayout } from '../components/layout/ResumePageLayout';
 
 const Experience = () => {
   const work = Resume.work || [];
+  const organizations = Resume.organizations || [];
   const volunteer = Resume.volunteer || [];
 
   return (
-    <ResumePageLayout eyebrow="Work & volunteering" title="Experience">
+    <ResumePageLayout eyebrow="Work & Organization" title="Experience">
       <section className="resume-page-section">
         <h2 className="resume-subheading">Work</h2>
         {work.length > 0 ? (
@@ -22,11 +23,36 @@ const Experience = () => {
                 description={item.summary}
                 highlights={item.highlights || []}
                 url={item.website}
+                image={item.image}
+                imageAlt={item.imageAlt}
               />
             ))}
           </div>
         ) : (
           <p className="section-muted">No work experience is listed.</p>
+        )}
+      </section>
+
+      <section className="resume-page-section">
+        <h2 className="resume-subheading">Organizations</h2>
+        {organizations.length > 0 ? (
+          <div className="resume-entry-grid">
+            {organizations.map((item, index) => (
+              <ResumeEntry
+                key={`${item.name}-${index}`}
+                eyebrow={[item.startDate, item.endDate].filter(Boolean).join(' — ')}
+                title={item.position || 'Member'}
+                subtitle={item.name}
+                description={item.summary}
+                highlights={item.highlights || []}
+                url={item.website}
+                image={item.image}
+                imageAlt={item.imageAlt}
+              />
+            ))}
+          </div>
+        ) : (
+          <p className="section-muted">No organizations are listed.</p>
         )}
       </section>
 
@@ -43,6 +69,8 @@ const Experience = () => {
                 description={item.summary}
                 highlights={item.highlights || []}
                 url={item.website}
+                image={item.image}
+                imageAlt={item.imageAlt}
               />
             ))}
           </div>

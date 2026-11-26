@@ -21,6 +21,8 @@ const Projects = () => {
               tags={project.keywords || project.tags || []}
               url={project.url}
               urlLabel="View project"
+              image={project.image}
+              imageAlt={project.imageAlt}
             />
           ))}
         </div>
