@@ -36,11 +36,12 @@ const HomeSections = () => {
   const basics = Resume.basics || {};
   const skills = Resume.skills || [];
   const awards = Resume.awards || [];
+  const certifications = Resume.certifications || [];
   const publications = Resume.publications || [];
   const languages = Resume.languages || [];
   const interests = Resume.interests || [];
   const references = Resume.references || [];
-  const hasRecognition = awards.length > 0 || publications.length > 0;
+  const hasRecognition = awards.length > 0 || certifications.length > 0 || publications.length > 0;
   const hasMore = languages.length > 0 || interests.length > 0 || references.length > 0;
   const keywords = typeof basics.keywords === 'string'
     ? basics.keywords.split(',').map((keyword) => keyword.trim()).filter(Boolean)
@@ -89,8 +90,8 @@ const HomeSections = () => {
       </Section>
 
       {hasRecognition && (
-        <Section id="recognition" number="03" title="AWARDS & PUBLICATIONS">
-          <h2>Recognition &<br /><span>Awards.</span></h2>
+        <Section id="recognition" number="03" title="AWARDS & CERTIFICATIONS">
+          <h2>Awards &<br /><span>certifications.</span></h2>
           <div className="resume-entry-grid">
             {awards.map((award, index) => (
               <ResumeEntry
@@ -101,6 +102,19 @@ const HomeSections = () => {
                 description={award.summary}
                 image={award.image}
                 imageAlt={award.imageAlt}
+              />
+            ))}
+            {certifications.map((certification, index) => (
+              <ResumeEntry
+                key={`${certification.title}-${index}`}
+                eyebrow={certification.date}
+                title={certification.title}
+                subtitle={certification.issuer}
+                description={certification.summary}
+                url={certification.website}
+                urlLabel="View certification"
+                image={certification.image}
+                imageAlt={certification.imageAlt}
               />
             ))}
             {publications.map((publication, index) => (

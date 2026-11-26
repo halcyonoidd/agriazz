@@ -4,9 +4,9 @@
         "label": "Computer Science student",
         "email": "agriazzukhruf1@gmail.com",
         "picture": "images/agri.jpeg",
-        "x_title": "Hey, I'm",
+        "x_title": "Hi, I'm",
         "job": "Computer Science Student at UNESA & BUCT",
-        "description": "Hey, I'm Agri Azzukhruf (艾睿), a Computer Science student based in Beijing, China. I love all things technical. Talk soon!",
+        "description": "Hi, I'm Agri Azzukhruf (艾睿), a Computer Science student based in Beijing, China. I love all things technical. Talk soon!",
         "summary": "based in Beijing, China.",
         "keywords": "Web Development, Full Stack Developer, UI/UX Designer, ", 
         "url": "https://agriazzukhruf.com",
@@ -115,11 +115,41 @@
     ],
     "awards": [
         {
+            "title": "Participant of FindIT UI/UX Competition",
+            "date": "May 2026",
+            "awarder": "KMTETI Fakultas Teknik UGM",
+            "summary": "This competition challenged me to design innovative and user-friendly interfaces. I created a user-friendly AI assistant application that helps users to express their feelings and emotions through text and voice. The AI assistant can analyze the user's input and provide appropriate responses, making it a valuable tool for mental health support.",
+            "image": "images/findIt.jpg"
+        },
+        {
             "title": "3rd Place Winner INSYFEST UI/UX Competition",
             "date": "November 2025",
             "awarder": "Himpunan Mahasiswa Sistem Infomasi Universitas Buana Perjuangan Karawang",
-            "summary": "I was awarded 3rd Place in the INSYFEST UI/UX Competition, organized by Himpunan Mahasiswa Sistem Infomasi Universitas Buana Perjuangan Karawang. This recognition was given for my innovative and user-friendly design solutions in the competition.",
+            "summary": "This recognition was given for my innovative and user-friendly design solutions in the competition. I created 'ifLearning' an application designed as a learning tool for students to develop their skills in technology and programming. The application features an interactive user interface that makes the learning process comfortable and effective.",
             "image": "images/award.png"
+        },
+        {
+            "title": "Participant of CTF Competition",
+            "date": "October 2025",
+            "awarder": "Politeknik Siber dan Sandi Negara (PoltekSSN)",
+            "summary": "I participated in the CTF (Capture The Flag) Competition on WRECK IT 6.0 organized by Politeknik Siber dan Sandi Negara (PoltekSSN). This competition tested my skills in cybersecurity, problem-solving, and teamwork as I worked to solve various challenges and capture flags.",
+            "image": "images/ctf.jpg"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "Front End Development",
+            "date": "May 2026",
+            "issuer": "Dicoding",
+            "summary": "I earned the Front End Development certificate through Dicoding, which provided me with comprehensive knowledge and skills in front-end development, including HTML, CSS, and JavaScript.",
+            "image": "images/frontEnd.jpg"
+        },
+        {
+            "title": "Web Development",
+            "date": "February 2026",
+            "issuer": "Dicoding",
+            "summary": "I earned the Web Development certificate through Dicoding, which provided me with comprehensive knowledge and skills in web development, including front-end and back-end technologies.",
+            "image": "images/webDev.jpg"
         }
     ],
     "skills": [
