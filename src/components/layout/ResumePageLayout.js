@@ -18,7 +18,7 @@ export const ResumePageLayout = ({ eyebrow, title, children }) => {
         {children}
       </main>
       <footer className="scroll-footer resume-page-footer">
-        <span>Portfolio</span>
+        <span>Agri Azzukhruf (艾睿)</span>
         <Link to="/">Home</Link>
       </footer>
       <BottomNavigation />
