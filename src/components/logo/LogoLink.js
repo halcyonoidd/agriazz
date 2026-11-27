@@ -12,6 +12,10 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         top: theme.spacing(6),
         left: theme.spacing(6),
+        "@media (max-width: 1150px)": {
+            width: "68px",
+            height: "38px",
+        },
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
