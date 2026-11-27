@@ -269,6 +269,11 @@
   margin: 0 auto;
   padding: clamp(50px, 8vw, 100px) 0;
 }
+.resume-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .resume-home-link {
   color: var(--section-muted);
   font-size: .8rem;

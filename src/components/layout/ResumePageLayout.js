@@ -5,14 +5,19 @@ import { BottomNavigation } from '../navigation/BottomNavigation';
 import DisplacementSphere from '../background/DisplacementSphere';
 import '../../Portfolio.css';
 
-export const ResumePageLayout = ({ eyebrow, title, children, showBackground = false }) => {
+export const ResumePageLayout = ({ eyebrow, title, children, showBackground = false, showProjectsLink = false }) => {
   const { theme } = useContext(ThemeContext);
 
   return (
     <div className={`home-sections home-sections-${theme} resume-page`}>
       {showBackground && <DisplacementSphere />}
       <main className="resume-page-content">
-        <Link className="resume-home-link" to="/">Back to home</Link>
+        <nav className="resume-page-nav" aria-label="Page navigation">
+          <Link className="resume-home-link" to="/">Back to home</Link>
+          {showProjectsLink && (
+            <Link className="resume-home-link" to="/projects">Back to projects</Link>
+          )}
+        </nav>
         <header className="resume-page-header">
           <p className="scroll-eyebrow">{eyebrow}</p>
           <h1>{title}</h1>

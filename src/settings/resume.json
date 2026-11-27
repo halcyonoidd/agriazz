@@ -220,6 +220,68 @@
                 "images/ifLearningPhoto2.webp",
                 "images/ifLearningPhoto3.webp"
             ]
+        },
+        {
+            "name": "CITTA",
+            "description": "AI Assistant is an application that helps users to express their feelings and emotions through text and voice. The AI assistant can analyze the user's input and provide appropriate responses, making it a valuable tool for mental health support.",
+            "highlights": ["Developed an AI assistant that can analyze user input and provide appropriate responses.", "Implemented features that facilitate effective communication and emotional expression."],
+            "keywords": ["UI/UX Design", "Team Project", "Figma"],
+            "startDate": "September",
+            "endDate": "November 2026",
+            "url": "https://www.figma.com/proto/nIYU6XjJto8280ecttHS0W/CITTA-APP-DESIGN?node-id=328-1990&p=f&t=yhMl0HLy7W4Whn0S-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A86&starting-point-node-id=328%3A1990",
+            "star": {
+                "situation": "The situation was that many individuals struggle to express their feelings and emotions effectively, which can lead to mental health challenges. I identified this need and decided to create an AI assistant that would facilitate emotional expression and provide support.",
+                "task": "My task was to design and develop an AI assistant application that would help users express their feelings and emotions through text and voice. I aimed to create an intuitive user interface that would allow users to interact with the AI assistant easily, while also incorporating features that would provide meaningful responses based on the user's input.",
+                "action": "To achieve this, I conducted user research to understand the challenges individuals face in expressing their emotions. I then created wireframes and prototypes using Figma, iterating on the design based on feedback from potential users.",
+                "result": "As a result, the AI Assistant application received positive feedback from users who found it helpful in expressing their emotions. It was recognized for its innovative approach to mental health support and its user-friendly design. The application has been successfully used by individuals to improve their emotional well-being, demonstrating its effectiveness as a supportive tool."
+            },
+            "images": [
+                "images/cittaVideo.mp4",
+                "images/cittaPhoto.webp",
+                "images/cittaPhoto2.webp",
+                "images/cittaPhoto3.webp",
+                "images/cittaPhoto4.webp",
+                "images/cittaPhoto5.webp"
+            ]
+        },
+        {
+            "name": "Project Website",
+            "description": "I developed a personal portfolio website to showcase my skills and projects. The website features a responsive design and interactive elements to enhance the user experience, allowing visitors to easily navigate through my portfolio and learn more about my work.",
+            "highlights": ["Developed a personal portfolio website to showcase my skills, projects, and my experiments."],
+            "keywords": ["Web Development", "Svelte", "TailwindCSS"],
+            "startDate": "May 2026",
+            "url": "https://griazzlabs.netlify.app/",
+            "star": {
+                "situation": "The situation was that I wanted to create a personal portfolio website to showcase my skills, projects, and experiences as a Computer Science student. I identified the need for a professional online presence to connect with potential collaborators and employers.",
+                "task": "My task was to design and develop a personal portfolio website that would effectively present my work and my experiment. I aimed to create an intuitive user interface that would allow visitors to easily navigate through my portfolio and learn more about my skills and experiences.",
+                "action": "To achieve this, I utilized Svelte and TailwindCSS to build a responsive and visually appealing website. I focused on creating a clean layout with interactive elements that would enhance the user experience. I also ensured that the website was optimized for performance and accessibility, allowing visitors to easily access my portfolio from various devices.",
+                "result": "As a result, the personal portfolio website received positive feedback from visitors who found it informative and visually appealing. It effectively showcased my skills, projects, and experiences, helping me establish a professional online presence."
+            },
+            "images": [
+                "images/labsPhoto.webp",
+                "images/labsPhoto2.webp",
+                "images/labsPhoto3.webp",
+                "images/labsPhoto4.webp",
+                "images/labsPhoto5.webp",
+                "images/labsPhoto6.webp"
+            ]
+        },
+        {
+            "name": "goMind",
+            "description": "GoMind is a browser-based 9x9 Go AI web game developed with a single-file React architecture. It features a complete Go game engine that implements Monte Carlo Tree Search (MCTS) and Policy Network concepts to create an interactive AI opponent.",
+            "highlights": ["Machine Learning"],
+            "keywords": ["Web Development", "React.js", "Machine Learning", "MCTS", "Policy Network"],
+            "startDate": "September 2026",
+            "url": "https://gomind-ml.netlify.app",
+            "star": {
+                "situation": "The situation was that I wanted to create a browser-based Go AI web game that would allow users to play against an AI opponent. I identified the need for an interactive and engaging platform for users to learn and practice the game of Go, while also showcasing my skills in web development and machine learning.",
+                "task": "My task was to design and develop a browser-based Go AI web game that would provide an interactive experience for users. I aimed to create a complete Go game engine that would implement Monte Carlo Tree Search (MCTS) and Policy Network concepts to create an AI opponent capable of challenging users at various skill levels.",
+                "action": "To achieve this, I utilized React to build a single-file architecture for the web game, ensuring a seamless and responsive user experience. I implemented the MCTS algorithm and Policy Network concepts to create an AI opponent that could adapt to the user's skill level. Additionally, I focused on creating an intuitive user interface that would allow users to easily navigate through the game and access various features.",
+                "result": "As a result, the GoMind web game received positive feedback from users who found it engaging and challenging. It effectively provided an interactive platform for users to learn and practice the game of Go, while also showcasing my skills in web development and machine learning. The game has been successfully used by players of various skill levels, demonstrating its effectiveness as an educational and entertaining tool."
+            },
+            "images": [
+                "images/goMindPhoto.webp"
+            ]
         }
     ]
 }

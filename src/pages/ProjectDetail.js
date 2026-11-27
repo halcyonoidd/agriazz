@@ -15,7 +15,7 @@ const ProjectDetail = () => {
 
   if (!project) {
     return (
-      <ResumePageLayout eyebrow="Project details" title="Project not found" showBackground>
+      <ResumePageLayout eyebrow="Project details" title="Project not found" showBackground showProjectsLink>
         <p className="section-muted">This project could not be found.</p>
         <Link className="project-detail-back" to="/projects">Back to projects</Link>
       </ResumePageLayout>
@@ -33,7 +33,7 @@ const ProjectDetail = () => {
   const hasCompleteStar = starSections.length === 4;
 
   return (
-    <ResumePageLayout eyebrow="Project details" title={projectTitle} showBackground>
+    <ResumePageLayout eyebrow="Project details" title={projectTitle} showBackground showProjectsLink>
       <div className="project-detail">
         {projectMedia.length > 0 && (
           <section className="project-gallery" aria-label={`${projectTitle} media`} aria-roledescription="carousel">
